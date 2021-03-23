@@ -1,20 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:loja_virtual/screens/home_screen.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(MaterialApp(
+    home: HomeScreen(),
+    debugShowCheckedModeBanner: false,
+  ));
 }
-
-class MyApp extends StatelessWidget {
-
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Flutter Demo',
-      theme: ThemeData(
-
-
-      )
-    );
-  }
-}
-
